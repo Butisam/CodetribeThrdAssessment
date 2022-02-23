@@ -1,0 +1,235 @@
+#headerTable{
+    width: 100%;
+
+}
+
+.logo{
+    width: 80%;
+}
+nav{
+    padding-right: 16px;
+
+}
+a{
+    margin-right: 16px;
+    color: black;
+}
+video{
+    width: 75% ;
+}
+#mainTable{
+    width: 100%;
+}
+.bioBox{
+    width: 70%;
+    text-align: left;
+}
+.btn{
+    padding: 16px;
+    border-radius: 10px;
+    font-size: medium;
+    padding-bottom: 25px;
+}
+.subBtn{
+    padding: 16px;
+    border-radius: 10px;
+    font-size: small;  
+}
+.icon{
+    color: blueviolet;
+    font-style: oblique;
+    font-size: xx-large;
+}
+img{
+    border: 3px;
+    border-radius: 30px;
+
+}
+body{
+    background-repeat:repeat;
+}
+.para{
+    font-size: large;
+    margin: 70px;
+    
+}
+h2{
+    font-style: italic;
+    margin: 70px;
+    
+}
+table{
+    border: 2px;
+}
+
+.conTltle span{
+    font-family: serif;
+    font-size: 24px;
+    color: black;
+    display: inline-block;
+    transition: all .5s;
+    animation: animate 2s infinite;
+}
+
+.conTltle span:nth-child(1)
+{animation-delay: .1s;}
+.conTltle span:nth-child(2)
+{animation-delay: .2s;}
+.conTltle span:nth-child(3)
+{animation-delay: .3s;}
+.conTltle span:nth-child(4)
+{animation-delay: .4s;}
+.conTltle span:nth-child(5)
+{animation-delay: .5s;}
+.conTltle span:nth-child(6)
+{animation-delay: .6s;}
+.conTltle span:nth-child(7)
+{animation-delay: .7s;}
+.conTltle span:nth-child(8)
+{animation-delay: .8s;}
+
+@keyframes animate{
+
+    0%{
+        color: black;
+        transform: translateY(0);
+        margin-left: 0;
+    }
+    25%{
+        color: blue;
+        transform: translateY(-15px);
+        margin-left: 10px;
+        text-shadow: 0 15px 5 rgb(0, 0,0,1);
+    }
+    100%{
+        color: black;
+        transform: translateY(0);
+    }
+
+}
+
+.conLogo span{
+    font-family: serif;
+    font-size: 24px;
+    color: black;
+    display: inline-block;
+    transition: all .5s;
+    animation: animate 2s infinite;
+}
+.conLogo span:nth-child(1)
+{animation-delay: .8s;}
+.conLogo span:nth-child(2)
+{animation-delay: .1s;}
+.conLogo span:nth-child(3)
+{animation-delay: .30s;}
+.conLogo span:nth-child(4)
+{animation-delay: .12s;}
+@keyframes animate{
+
+    0%{
+        color: black;
+        transform: translateY(0);
+        margin-left: 0;
+    }
+    25%{
+        color: gray;
+        transform: translateY(-15px);
+        margin-left: 10px;
+        text-shadow: 0 15px 5 rgb(0, 0,0,1);
+    }
+    100%{
+        color: black;
+        transform: translateY(0);
+    }
+
+}
+a {
+    color: black;
+    text-decoration: none;
+
+}
+.me{
+    width: 400px;
+    margin: 90px auto;
+}
+.me p,
+.me h1 {
+    letter-spacing: 3px;
+    text-align: center;
+}
+.me p{
+    font-weight: 200;
+}
+.me span{
+    font-weight: bond;
+    
+}
+.social{
+    position: fixed;
+    top: 20px;
+}
+.social ul{
+    padding: 0px;
+    -webkit-transform: translate(270px, 550px);
+    -moz-transform: translate(270px, 550px);
+    -ms-transform: translate(270px, 550px);
+    -o-transform: translate(270PX, 550px);
+    transform: translate(270px, 550px);
+}
+.social ul li{
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0,0.36);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.social ul li:hover a{
+    color: #000;
+}
+.social ul li:hover i{
+    color: #fff;
+    background: rgba(0, 0, 0,0.36);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transition: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.social ul li i {
+    margin-left: 10px;
+    color:#000;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-raddius: 50%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    -webkit-transition: rotate(0deg);
+    -moz-transition: rotate(0deg);
+    -ms-transition: rotate(0deg);
+    -o-transition: rotate(0deg);
+    transition: rotate(0deg);
+
+}

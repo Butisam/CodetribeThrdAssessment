@@ -1,0 +1,118 @@
+<!--This is the header-->
+<html>
+    <head>
+        <title>Bootcam WebSite</title>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+        <link rel="stylesheet" href="./assets/style/styles.css">
+    </head>
+    
+    <body background="./assets/image/portfolio.jpeg" no-repeat center center fixed;>
+        <header >
+
+            <table id="headerTable"  >
+                <tr>
+                
+                    <td align="right">
+                        <nav>
+     
+                            <a href="index.html">HOME</a>
+                            <a href="about.html">ABOUTME</a>
+                            <a href="contact-me.html">CONTACT ME</a>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+         </header>
+<script src="./contact.js">
+
+</script>
+<main>
+    <form name="infoForm" action="https://formspree.io/f/xknyrane" onsubmit="return validateForm()" method="post">
+        <label for="Names">Name(s)</label><br>
+        <input name="Names " id="Names" type="Name"><br>
+        <label for="Surname">Surname</label><br>
+        <input name="Surname " id="Surname" type="Surname"><br>
+        <label for="ContactNo">Contact Number</label><br>
+        <input name="ContactNo " id="ContactNo" type="ContactNo"><br>
+        <label for="Date">Date</label><br>
+        <input name="Date " id="Date" type="date"><br>
+        <label for="Email">Email</label><br>
+        <input name="Email" id="Email" type="email"><br>
+        <label>Message:<br>
+            <textarea name="Message"></textarea>
+        </label><br>
+    
+        <button type="submit">Submit</button>
+        
+      </form>
+<!--
+<table id="headerTable"  align="right" border="double">
+    <tr>
+        <td width="25%">
+            Province 
+        </td>
+        <td> Limpopo
+        </td>
+    </tr>
+    <tr>
+        <td>
+            City
+        </td>
+        <td>
+            Polokwane
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Full Name
+        </td>
+        <td>
+            Modiba Sello Samuel
+        </td>   
+    </tr>
+    <tr>
+        <td width="25%">
+            Email
+        </td>
+        <td> butisam88@gmail.com</td>
+    </tr>
+    <tr>
+        <td width="25%">
+            Contact
+        </td>
+        <td> 0792593803</td>
+    </tr>
+    <tr>
+        <td width="25%">
+            Postal Address
+        </td>
+        <td> P O Box 4103 sovenga 0727 </td>
+    </tr>
+
+</table>
+
+-->
+
+
+
+
+<script>
+   
+    let personInformation = {
+        firstName: 'Sello Samuel',
+        lastNane: 'Modiba',
+        gender: 'Male',
+        email: 'butisam88@gmail.com',
+        location: 'Polokwane',
+    }
+    console.log(personInformation);
+
+    
+</script>
+
+
+
+</main>
+
+    </body>
+</html>
